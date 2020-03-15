@@ -142,7 +142,7 @@ DESCRIPTION = 'Python bindings for the Brotli compression library'
 
 AUTHOR = 'The Brotli Authors'
 
-LICENSE = 'Apache 2.0'
+LICENSE = 'MIT'
 
 PLATFORMS = ['Posix', 'MacOS X', 'Windows']
 
@@ -150,7 +150,7 @@ CLASSIFIERS = [
     'Development Status :: 4 - Beta',
     'Environment :: Console',
     'Intended Audience :: Developers',
-    'License :: OSI Approved :: Apache Software License',
+    'License :: OSI Approved :: MIT License',
     'Operating System :: MacOS :: MacOS X',
     'Operating System :: Microsoft :: Windows',
     'Operating System :: POSIX :: Linux',
@@ -238,10 +238,12 @@ EXT_MODULES = [
             'c/enc/fast_log.h',
             'c/enc/find_match_length.h',
             'c/enc/hash.h',
+            'c/enc/hash_composite_inc.h',
             'c/enc/hash_forgetful_chain_inc.h',
             'c/enc/hash_longest_match64_inc.h',
             'c/enc/hash_longest_match_inc.h',
             'c/enc/hash_longest_match_quickly_inc.h',
+            'c/enc/hash_rolling_inc.h',
             'c/enc/hash_to_binary_tree_inc.h',
             'c/enc/histogram.h',
             'c/enc/histogram_inc.h',
